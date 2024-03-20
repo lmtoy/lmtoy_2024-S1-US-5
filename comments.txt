@@ -1,2 +1,4 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
+112346_112352 No clear detection, removed bad chassis/board 3/0
+112356_112368 No clear detection, removed bad chassis/board 1/2
