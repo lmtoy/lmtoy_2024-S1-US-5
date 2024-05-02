@@ -6,6 +6,11 @@
 114189 QAFAIL: Int time 0, failed integration
 114287 QAFAIL: bad chassis 3
 114292 QAFAIL: bad chassis 3
+117822 QAFAIL: bad chassis 3
+117827 Spike around 80 GHz in chassis/boards 0/2, 1/2; not visible in combination obsnum
+116627 QAFAIL: bad Tsys, bad chassis 1
+116629 QAFAIL: bad Tsys, bad chassis 1
+117815 QAFAIL: bad chassis 3
 112346_112352 [6/6] No clear detection, removed bad chassis/board 3/0
 112356_112368 [9/9] No clear detection, removed bad chassis/board 1/2
 114083_114102 [12/14] No clear detection
@@ -13,3 +18,5 @@
 112586_114181 [12/13] No clear detection
 114185_114405 [28/31] No clear detection
 114507_114525 [13/13] No clear detection
+116614_117828 [14/15] No clear detection
+116628_117817 [9/12] No clear detection
