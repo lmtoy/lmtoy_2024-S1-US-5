@@ -14,6 +14,7 @@ on["C1"] = [ 112346, 112347, 112348, 112350, 112351, 112352,]
 
 on["C2"] = [ 112356, 112357, 112358, 112360, 112361, 112362,
              112366, 112367, 112368,]
+
 on["C3"] = [ 114083, 114084, 114085, 114087, 114088, 114089, 114091,
              114092, 114093, 114097, 114098, 114099, 114101, 114102,]
 
@@ -38,10 +39,10 @@ on["HI4"] = [ 114185, 114186, 114188, 114189, 114268, 114269, 114270,
 on["HI8"] = [ 114507, 114508, 114509, 114511, 114512, 114513, 114515,
               114516, 114517, 114521, 114522, 114523, 114525,]
 
-#        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1["C1"] = ""
-pars1["C2"] = ""
+
+pars1["C1"] = "badcb=3/0"
+pars1["C2"] = "badcb=1/2"
 pars1["C3"] = ""
 pars1["C5"] = ""
 pars1["C6"] = ""
@@ -50,8 +51,9 @@ pars1["HI3"] = ""
 pars1["HI4"] = ""
 pars1["HI8"] = ""
 
-#        common parameters per source on subsequent runs (run1b, run2b)
+# parameters for the (optional) second pass of the pipeline (e.g. for bank=0)
 pars2 = {}
+
 pars2["C1"] = ""
 pars2["C2"] = ""
 pars2["C3"] = ""

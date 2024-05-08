@@ -1,2 +1,15 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
+114097 QAFAIL: bad Tsys
+114098 QAFAIL: bad Tsys
+114182 QAFAIL: Int time 0, failed integration
+114189 QAFAIL: Int time 0, failed integration
+114287 QAFAIL: bad chassis 3
+114292 QAFAIL: bad chassis 3
+112346_112352 [6/6] No clear detection, removed bad chassis/board 3/0
+112356_112368 [9/9] No clear detection, removed bad chassis/board 1/2
+114083_114102 [12/14] No clear detection
+114408_114425 [12/12] No clear detection
+112586_114181 [12/13] No clear detection
+114185_114405 [28/31] No clear detection
+114507_114525 [13/13] No clear detection
