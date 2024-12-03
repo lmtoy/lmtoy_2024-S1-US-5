@@ -1,11 +1,52 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
-114097 QAFAIL: bad Tsys
-114098 QAFAIL: bad Tsys
-114182 QAFAIL: Int time 0, failed integration
-114189 QAFAIL: Int time 0, failed integration
-114287 QAFAIL: bad chassis 3
-114292 QAFAIL: bad chassis 3
+114097 QAFAIL: bad Tsys #qagrade=-2
+114098 QAFAIL: bad Tsys #qagrade=-2
+114182 QAFAIL: Int time 0, failed integration #qagrade=-2
+114189 QAFAIL: Int time 0, failed integration #qagrade=-2
+114287 QAFAIL: bad chassis 3 #qagrade=-2
+114292 QAFAIL: bad chassis 3 #qagrade=-2
+
+#C11
+122196 QAFAIL: RSR failure #qagrade=-2
+122197 QAFAIL: RSR failure #qagrade=-2
+122198 QAFAIL: RSR failure #qagrade=-2
+122200 QAFAIL: RSR failure #qagrade=-2
+122201 QAFAIL: RSR failure #qagrade=-2
+122202 QAFAIL: RSR failure #qagrade=-2
+122406 QAFAIL: RSR failure #qagrade=-2
+122407 QAFAIL: RSR failure #qagrade=-2
+122408 QAFAIL: RSR failure #qagrade=-2
+123956 QAFAIL: RSR failure #qagrade=-2
+123957 QAFAIL: RSR failure #qagrade=-2
+123958 QAFAIL: RSR failure #qagrade=-2
+123960 QAFAIL: RSR failure #qagrade=-2
+123961 QAFAIL: RSR failure #qagrade=-2
+123962 QAFAIL: RSR failure #qagrade=-2
+123964 QAFAIL: RSR failure #qagrade=-2
+123965 QAFAIL: RSR failure #qagrade=-2 
+123966 QAFAIL: RSR failure #qagrade=-2
+
+124240 removed bad chassis/board 0/5 #badcb=0/5
+124241 removed bad chassis/board 0/5 #badcb=0/5
+124243 removed bad chassis/board 0/5 #badcb=0/5
+124244 removed bad chassis/board 0/5 #badcb=0/5
+124245 removed bad chassis/board 0/5 #badcb=0/5
+124247 removed bad chassis/board 0/5 #badcb=0/5
+
+
+
+#HI9
+123694 QAFAIL: RSR failure #qagrade=-2
+123695 QAFAIL: RSR failure #qagrade=-2
+123696 removed bad chassis/board 3/0 #badcb=3/0
+123704 removed bad chassis/board 0/5 #badcb=0/5
+124708 removed bad chassis/board 0/5 #badcb=0/5
+
+
+
+
+#combos
 112346_112352 [6/6] No clear detection, removed bad chassis/board 3/0
 112356_112368 [9/9] No clear detection, removed bad chassis/board 1/2
 114083_114102 [12/14] No clear detection
@@ -13,3 +54,5 @@
 112586_114181 [12/13] No clear detection
 114185_114405 [28/31] No clear detection
 114507_114525 [13/13] No clear detection
+124240_124249 [9/27]
+123694_123708 [13/15]
