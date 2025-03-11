@@ -1,11 +1,69 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
-114097 QAFAIL: bad Tsys #qagrade=-2
-114098 QAFAIL: bad Tsys #qagrade=-2
-114182 QAFAIL: Int time 0, failed integration #qagrade=-2
-114189 QAFAIL: Int time 0, failed integration #qagrade=-2
-114287 QAFAIL: bad chassis 3 #qagrade=-2
-114292 QAFAIL: bad chassis 3 #qagrade=-2
+
+#C2
+121821 all board 0 flagged, submitted for re-observation #badcb=0/0 qagrade=1
+121822 all board 0 flagged, submitted for re-observation #badcb=0/0 qagrade=1
+121823 removed bad chassis/board 1/1 #badcb=1/1
+112361 removed bad chassis/board 3/0 (spike?) #badcb=3/0
+112366 removed bad chassis/board 3/0 #badcb=3/0
+112368 removed bad chassis/board 3/0 #badcb=3/0
+
+#C3
+114101 removed bad chassis/board 2/3 #badcb=2/3
+114097 QAFAIL: bad Tsys, re-observed #qagrade=-2
+114098 QAFAIL: bad Tsys, re-observed #qagrade=-2
+114092 removed bad chassis/board 1/2 and 2/3 #badcb=1/2,2/3
+114085 removed bad chassis/board 2/3 #badcb=2/3
+114084 removed bad chassis/board 2/3 #badcb=2/3
+
+#C5
+114424 removed bad chassis/board 1/2, 3/0, 2/1 #badcb=1/2,2/1,3/0 qagrade=2
+114417 removed bad chassis/board 1/0 #badcb=1/0
+114412 removed bad chassis/board 1/2 #badcb=1/2
+
+
+#C6
+117828 removed bad chassis/board 3/0 and 2/3 #badcb=3/0,2/3
+117822 ch3 bad, re-observed #qagrade=2
+117821 removed bad chassis/board 3/0 #badcb=3/0
+117820 removed bad chassis/board 1/2 and 3/0 #badcb=1/2,3/0
+116730 removed bad chassis/board 3/0 #badcb=3/0
+116725 removed bad chassis/board 0/5 and 2/3 #badcb=0/5,2/3
+
+#C7
+122191 QAFAIL: instrument failure, submitted for re-observation #qagrade=-2
+122192 QAFAIL: instrument failure, submitted for re-observation #qagrade=-2
+122193 QAFAIL: instrument failure, submitted for re-observation #qagrade=-2
+116737 removed bad chassis/board 2/1 #badcb=2/1
+116629 QAFAIL: instrument failure, re-observed #qagrade=-2
+116627 QAFAIL: instrument failure, re-observed #qagrade=-2
+
+
+#C8
+127294 removed bad chassis/board 3/3 #badcb=3/3
+127293 removed bad chassis/board 3/0 #badcb=3/0
+127207 removed bad chassis/board 3/0 #badcb=3/0
+127206 removed bad chassis/board 3/3 #badcb=3/3
+127205 removed bad chassis/board 3/3 #badcb=3/3
+127203 removed bad chassis/board 3/3 #badcb=3/3
+
+#C9
+127188 removed bad chassis/board 3/3, 3/0 #badcb=3/3,3/0
+127187 removed bad chassis/board 3/0 #badcb=3/0
+
+
+#H13
+114182 QAFAIL: Int time 0, failed integration, re-observed #qagrade=-2
+114181 QAFAIL: bad ch3, submitted for re-observation #qagrade=-2
+
+
+#H14
+114189 QAFAIL: Int time 0, failed integration, re-observed #qagrade=-2
+114287 QAFAIL: bad chassis 3, re-observed #qagrade=-2
+114292 QAFAIL: bad chassis 3, re-observed #qagrade=-2
+114297 removed bad chassis/board 3/0 and 2/3 #badcb=3/0,2/3
+
 
 #C11
 122196 QAFAIL: RSR failure #qagrade=-2
@@ -36,23 +94,63 @@
 
 
 
+#H18
+114525 removed bad chassis/board 2/3 #badcb=2/3
+114523 removed bad chassis/board 2/3 #badcb=2/3
+114512 removed bad chassis/board 2/3 #badcb=2/3
+114508 removed bad chassis/board 2/3 #badcb=2/3
+
+
+
 #HI9
 123694 QAFAIL: RSR failure #qagrade=-2
 123695 QAFAIL: RSR failure #qagrade=-2
-123696 removed bad chassis/board 3/0 #badcb=3/0
+123696 removed bad chassis/board 3/0 and 0/0 #badcb=3/0,0/0
 123704 removed bad chassis/board 0/5 #badcb=0/5
 124708 removed bad chassis/board 0/5 #badcb=0/5
 
 
 
 
-#combos
-112346_112352 [6/6] No clear detection, removed bad chassis/board 3/0
-112356_112368 [9/9] No clear detection, removed bad chassis/board 1/2
-114083_114102 [12/14] No clear detection
-114408_114425 [12/12] No clear detection
-112586_114181 [12/13] No clear detection
-114185_114405 [28/31] No clear detection
-114507_114525 [13/13] No clear detection
-124240_124249 [9/27]
-123694_123708 [13/15]
+#combo
+#C1
+112346_121818 [12/12] no clear detection
+
+#C2
+112356_121823 [12/12] no clear detection
+
+#C3
+114083_114102 [12/14] no clear detection
+
+#C5
+114408_114425 [11/11] no clear detection
+
+#C6
+116614_117828 [14/14] no clear detection
+
+#C7
+116628_126692 [9/14] no clear detection
+
+#C8
+127201_127299 [15/15] no clear detection
+
+#C9
+127187_127197 [9/9] no clear detection
+
+#C11
+124239_124249 [9/27] no clear detection
+
+#H13
+112586_114180 [11/13] no clear detection
+
+#H14
+114185_114405 [27/30] no clear detection
+
+#H17
+123971_124569 [12/14] no clear detection
+
+#H18
+114507_114525 [12/12] no clear detection
+
+#H19
+122207_123708 [12/14] no clear detection
