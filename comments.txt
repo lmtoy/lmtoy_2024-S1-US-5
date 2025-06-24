@@ -5,8 +5,14 @@
 121821 all board 0 flagged, submitted for re-observation #badcb=0/0 qagrade=1
 121822 all board 0 flagged, submitted for re-observation #badcb=0/0 qagrade=1
 121823 removed bad chassis/board 1/1 #badcb=1/1
-112361 removed bad chassis/board 3/0 (spike?) #badcb=3/0
+
+112356 removed bad chassis/board 0/0 and 1/0 (spike?) #badcb=0/0,1/0 qagrade=2
+112357 removed bad chassis/board 0/0 and 1/0 (spike?) #badcb=0/0,1/0 qagrade=2
+112358 removed bad chassis/board 0/0 and 1/0 (spike?) #badcb=0/0,1/0 qagrade=2
+112360 removed bad chassis/board 0/0 and 1/0 (spike?) #badcb=0/0,1/0 qagrade=2
+112361 removed bad chassis/board 3/0 (spike?) #badcb=3/0,
 112366 removed bad chassis/board 3/0 #badcb=3/0
+112367 removed bad chassis/board 0/0 and 1/0 (spike?) #badcb=0/0,1/0 qagrade=2
 112368 removed bad chassis/board 3/0 #badcb=3/0
 
 #C3
@@ -114,43 +120,43 @@
 
 #combo
 #C1
-112346_121818 [12/12] no clear detection
+112346_121818 [12/12]
 
 #C2
-112356_121823 [12/12] no clear detection
+112356_121823 [12/12]
 
 #C3
-114083_114102 [12/14] no clear detection
+114083_114102 [12/14]
 
 #C5
-114408_114425 [11/11] no clear detection
+114408_114425 [12/12]
 
 #C6
-116614_117828 [14/14] no clear detection
+116614_117828 [15/15]
 
 #C7
-116628_126692 [9/14] no clear detection
+116628_126692 [13/18]
 
 #C8
-127201_127299 [15/15] no clear detection
+127201_127299 [15/15]
 
 #C9
-127187_127197 [9/9] no clear detection
+127187_127197 [12/12]
 
 #C11
-124239_124249 [9/27] no clear detection
+124239_124249 [9/27]
 
 #H13
-112586_114180 [11/13] no clear detection
+112586_114180 [11/13]
 
 #H14
-114185_114405 [27/30] no clear detection
+114185_114405 [28/31]
 
 #H17
-123971_124569 [12/14] no clear detection
+123971_124569 [20/27]
 
 #H18
-114507_114525 [12/12] no clear detection
+114507_114525 [13/13]
 
 #H19
-122207_123708 [12/14] no clear detection
+122207_123708 [13/15]
